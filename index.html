@@ -23,13 +23,13 @@
                         GitHub Repository
                         <span class="star-count">⭐</span>
                     </a>
-                    <a href="#abstract" class="btn btn-secondary">
+                    <a href="https://arxiv.org/abs/2507.16331" class="btn btn-primary" target="_blank">
                         <span class="btn-icon">📄</span>
                         Read Paper
                     </a>
-                    <a href="#methodology" class="btn btn-secondary">
-                        <span class="btn-icon">🔬</span>
-                        Methodology
+                    <a href="https://huggingface.co/Veri-Code" class="btn btn-primary" target="_blank">
+                        <span class="btn-icon">📄</span>
+                        Models & Dataset
                     </a>
                 </div>
             </div>
@@ -62,7 +62,7 @@
         <div class="container">
             <ul>
                 <li><a href="#abstract">Abstract</a></li>
-                <li><a href="#methodology">Methodology</a></li>
+                <li><a href="#models-dataset">Models & Dataset</a></li>
                 <li><a href="#findings">Key Findings</a></li>
                 <li><a href="#results">Results</a></li>
                 <li><a href="#citation">Citation</a></li>
@@ -87,13 +87,16 @@
                     <p>
                         In this work, we systematically explore ways to <strong>reduce human priors</strong> with the formal language, Dafny, as the main environment for our pilot study. Our pipeline mainly relies on introducing an automatic and scalable data curation pipeline, and careful RL designs integrated with feedback from the formal language verifier.
                     </p>
+                    <p>
+                        We introduce DafnyComp, a benchmark of compositional formal programs with auto-formalized specifications for specification reasoning. Our supervised fine-tuning (SFT) stage enables even small models (e.g., 0.5B) to generate syntactically valid and verifiable Dafny code, surpassing proprietary models. RL with regularization further improves performance, achieving stronger generalization to out-of-domain tasks and outperforming all strong baselines on the challenging DafnyComp benchmark.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section id="methodology" class="section">
+        <section id="models-dataset" class="section">
             <div class="container">
-                <h2>Methodology</h2>
+                <h2>Models & Dataset</h2>
                 <div class="methodology-grid">
                     <div class="method-card">
                         <div class="method-icon">🔄</div>
@@ -165,31 +168,21 @@
                 <div class="citation-box">
                     <pre><code>@article{reform2025,
   title={Re:Form — Reducing Human Priors in Scalable Formal Software Verification with RL in LLMs: A Preliminary Study on Dafny},
-  author={[Your Name] and [Co-authors]},
-  journal={[Conference/Journal]},
+  author={Chuanhao Yan, Fengdi Che, Xuhan Huang, Xu Xu, Xin Li, Yizhi Li, Xingwei Qu, Jingzhe Shi, Zhuangzhuang He, Chenghua Lin, Yaodong Yang, Binhang Yuan, Hang Zhao, Yu Qiao, Bowen Zhou, Jie Fu},
+  journal={arXiv preprint arXiv:2507.16331},
   year={2025},
-  url={https://github.com/Veri-Code/ReForm}
+  url={ https://arxiv.org/abs/2507.16331}
 }</code></pre>
                 </div>
                 <div class="links-section">
-                    <h3>Additional Links</h3>
-                    <div class="link-grid">
-                        <a href="https://github.com/Veri-Code/ReForm" class="link-card" target="_blank">
-                            <span class="link-icon">📁</span>
-                            <span class="link-text">GitHub Repository</span>
-                        </a>
-                        <a href="#methodology" class="link-card">
-                            <span class="link-icon">🔬</span>
-                            <span class="link-text">Methodology</span>
-                        </a>
-                        <a href="#findings" class="link-card">
-                            <span class="link-icon">💡</span>
-                            <span class="link-text">Key Findings</span>
-                        </a>
-                        <a href="mailto:your.email@example.com" class="link-card">
+                    <h3>Additional Link</h3>
+                    <div class="link-grid" style="text-align: center;">
+                        <div style="display: flex; justify-content: center;">
+                        <a href="https://bigaidream.github.io/contact/" class="link-card" style="width: 150px;">
                             <span class="link-icon">📧</span>
                             <span class="link-text">Contact</span>
                         </a>
+                    </div>
                     </div>
                 </div>
             </div>
